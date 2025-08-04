@@ -1,15 +1,16 @@
-# Ignore virtual environments
+# Ignore virtual environment
 venv/
-.env/
-*.egg-info/
 
-# Ignore Python cache
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Ignore IDE/editor config
+# OS & IDE files
+.DS_Store
 .vscode/
 .idea/
 
 # Ignore data
-data/
+# data/
+
+# git add .gitignore
