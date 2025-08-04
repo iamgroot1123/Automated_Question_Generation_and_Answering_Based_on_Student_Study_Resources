@@ -1,0 +1,7 @@
+{
+    "filename": "sample.pdf",
+    "num_paragraphs": 1,
+    "paragraphs": [
+        "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.\n# Supervised Learning\nIn supervised learning, the machine is taught using labeled data.\n# Unsupervised Learning\nUnsupervised learning involves learning patterns from unlabeled data."
+    ]
+}
