@@ -1,24 +1,56 @@
 [
     {
         "id": 1,
-        "context": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.\n# Supervised Learning\nIn supervised learning, the machine is taught using labeled data.\n# Unsupervised Learning\nUnsupervised learning involves learning patterns from unlabeled data.",
+        "context": "filename",
         "mcq": {
-            "question": "What does unsupervised learning mean?",
+            "question": "What is the name of the file that is generated?",
             "options": [
-                "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.",
-                "None of the above",
+                "filename.",
                 "Not mentioned in text",
+                "None of the above",
                 "All of the above"
             ],
-            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+            "answer": "filename."
         },
         "short_answer": {
-            "question": "What does unsupervised learning mean?",
-            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+            "question": "What is the name of the file that is generated?",
+            "answer": "filename."
+        }
+    },
+    {
+        "id": 2,
+        "context": "num_paragraphs",
+        "mcq": {
+            "question": "What does num_paragraphs generate?",
+            "options": [
+                "num_paragraphs.",
+                "Not mentioned in text",
+                "None of the above",
+                "All of the above"
+            ],
+            "answer": "num_paragraphs."
         },
-        "fill_in_blank": {
-            "question": "# Introduction to Machine Learning\nMachine learning _____ a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.\n# Supervised Learning\nIn supervised learning, the machine is taught using labeled data.\n# Unsupervised Learning\nUnsupervised learning involves learning patterns from unlabeled data.",
-            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+        "short_answer": {
+            "question": "What does num_paragraphs generate?",
+            "answer": "num_paragraphs."
+        }
+    },
+    {
+        "id": 3,
+        "context": "paragraphs",
+        "mcq": {
+            "question": "What paragraphs do you think of the paragraphs?",
+            "options": [
+                "paragraphs.",
+                "Not mentioned in text",
+                "None of the above",
+                "All of the above"
+            ],
+            "answer": "paragraphs."
+        },
+        "short_answer": {
+            "question": "What paragraphs do you think of the paragraphs?",
+            "answer": "paragraphs."
         }
     }
 ]

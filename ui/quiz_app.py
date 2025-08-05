@@ -29,12 +29,6 @@ for q in questions:
     short_response = st.text_input("Your Answer:", key=f"short_{q['id']}")
     user_answers[f"short_{q['id']}"] = short_response
 
-    # Fill-in-the-blank Section
-    st.markdown(f"**Fill in the Blank:**")
-    st.text(q['fill_in_blank']['question'])
-    fill_response = st.text_input("Fill it:", key=f"fill_{q['id']}")
-    user_answers[f"fill_{q['id']}"] = fill_response
-
 # Check answers if submitted
 if submitted:
     st.markdown("---")
@@ -59,13 +53,4 @@ if submitted:
         else:
             st.error(f"Q{qid} Short Answer: Incorrect. Answer: {correct_short}")
 
-        # Fill-in-the-Blank
-        correct_fill = q['fill_in_blank']['answer'].strip().lower()
-        user_fill = user_answers[f"fill_{qid}"].strip().lower()
-        if user_fill == correct_fill:
-            score += 1
-            st.success(f"Q{qid} Fill-in-the-Blank: Correct!")
-        else:
-            st.error(f"Q{qid} Fill-in-the-Blank: Incorrect. Answer: {correct_fill}")
-
-    st.markdown(f"---\n### 🎯 Total Score: `{score}` / `{len(questions) * 3}`")
+    st.markdown(f"---\n### 🎯 Total Score: `{score}` / `{len(questions) * 2}`")
