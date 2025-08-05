@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "context": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.\n# Supervised Learning\nIn supervised learning, the machine is taught using labeled data.\n# Unsupervised Learning\nUnsupervised learning involves learning patterns from unlabeled data.",
+        "mcq": {
+            "question": "What does unsupervised learning mean?",
+            "options": [
+                "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.",
+                "None of the above",
+                "Not mentioned in text",
+                "All of the above"
+            ],
+            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+        },
+        "short_answer": {
+            "question": "What does unsupervised learning mean?",
+            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+        },
+        "fill_in_blank": {
+            "question": "# Introduction to Machine Learning\nMachine learning _____ a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed.\n# Supervised Learning\nIn supervised learning, the machine is taught using labeled data.\n# Unsupervised Learning\nUnsupervised learning involves learning patterns from unlabeled data.",
+            "answer": "# Introduction to Machine Learning\nMachine learning is a field of computer science that gives computers the ability to learn without\nbeing explicitly programmed."
+        }
+    }
+]

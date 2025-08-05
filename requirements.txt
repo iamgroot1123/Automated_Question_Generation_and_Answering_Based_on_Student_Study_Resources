@@ -1,2 +1,8 @@
 pdfplumber
 python-docx
+
+transformers
+torch
+sentencepiece
+
+streamlit
